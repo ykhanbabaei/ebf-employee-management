@@ -1,0 +1,13 @@
+bin/
+lib/
+
+# dependencies
+/node_modules
+/node
+/build
+/target
+
+# IDEs and editors
+/.idea
+.project
+.classpath

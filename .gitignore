@@ -1,0 +1,14 @@
+# compiled output
+/dist
+/dist-server
+/tmp
+/out-tsc
+bin/
+lib/
+/target
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.settings/
