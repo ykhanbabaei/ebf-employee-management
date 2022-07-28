@@ -24,7 +24,7 @@ public class CompaniesServiceTest {
         companiesService.createEmployee(company.getId(), employee1);
         companiesService.createEmployee(company.getId(), employee2);
 
-        Assertions.assertEquals(companiesService.calculateAverageSalary(company.getId()).longValue(), 55000L);
+        Assertions.assertEquals(55000L, companiesService.calculateAverageSalary(company.getId()).longValue());
     }
 
     private EmployeeDto mockEmployeeWithSalary(BigDecimal salary, CompanyDto company) {

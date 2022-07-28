@@ -10,11 +10,18 @@ There are some variables which should be provided as environment variables:
 A simple web application for demo purpose. It shows a list of companies. For each company, there are a list of employees.
 It is possible to add a new employee or update or delete existing one.
 For persisting data H2 (In Memory) database used.
-Application frontend developed by react and backend with spring boot.
+Frontend developed by react and backend with spring boot.
 After running the application, ui is accessible via http://localhost:8080 in browser. 
 For accessing APIs check the address http://localhost:8080/swagger-ui/index.html.
 
-## Installation
+## Build and run
+For building project, run maven command in project home directory:
+
+    mvn clean package
+
+and then run jar file in backend/target directory.
+
+## Installation in Docker
 
 For building JDK 11 and maven is required. In project root folder run the following command:
 
